@@ -24,25 +24,25 @@
 
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203033.png)
 
-0：导入jar包
+### 0：导入jar包
 	创建dictionary lib 拷贝驱动包
 	右击驱动包 选择 add as library
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203049.png)
 
-1.注册驱动
+### 1.注册驱动
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203058.png)
-2.获取连接
+### 2.获取连接
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203107.png)
 
 URL：指定数据库
 user：同户名
 password：密码
 
-3.定义sql语句
+### 3.定义sql语句
 
-4.获取执行sql对象
+### 4.获取执行sql对象
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203115.png)
-5.执行sql
+### 5.执行sql
 ![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203121.png)
-6.处理结果
-7.释放资源
+### 6.处理结果
+### 7.释放资源
