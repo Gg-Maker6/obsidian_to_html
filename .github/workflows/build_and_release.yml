@@ -21,7 +21,7 @@ jobs:
       - name: Run Build Assert #需要执行的命令
         run: |
           curl https://raw.githubusercontent.com/chenxuan520/gh-action-shell/main/git_commit_message_from_last_tag.sh | bash 1>commit-message.log 2>/dev/null
-          ./create.sh ./example
+          ./create.sh ./MyNote
           tar -zcvf book.tar.gz ./book
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
