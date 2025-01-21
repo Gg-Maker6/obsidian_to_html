@@ -11,7 +11,7 @@
 * 官方（sun公司）定义的一套操作所有关系型数据库的规则，即接口
 * 各个数据库厂商去实现这套接口，提供数据库驱动jar包
 * 我们可以使用这套接口（JDBC）编程，真正执行的代码是驱动jar包中的实现类
-![[Pasted image 20250121203003.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203003.png)
 ### 1.3  JDBC好处
 
 * 各数据库厂商使用相同的接口，Java代码不需要针对不同数据库分别开发
@@ -20,19 +20,19 @@
 以后编写操作数据库的代码只需要面向JDBC（接口），操作哪儿个关系型数据库就需要导入该数据库的驱动包，如需要操作MySQL数据库，就需要再项目中导入MySQL数据库的驱动包。
 ## 2，JDBC快速入门
 通过Java操作数据库的流程
-![[Pasted image 20250121203024.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%20jdbc2.png)
 
-![[Pasted image 20250121203033.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203033.png)
 
 0：导入jar包
 	创建dictionary lib 拷贝驱动包
 	右击驱动包 选择 add as library
-![[Pasted image 20250121203049.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203049.png)
 
 1.注册驱动
-![[Pasted image 20250121203058.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203058.png)
 2.获取连接
-![[Pasted image 20250121203107.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203107.png)
 
 URL：指定数据库
 user：同户名
@@ -41,8 +41,8 @@ password：密码
 3.定义sql语句
 
 4.获取执行sql对象
-![[Pasted image 20250121203115.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203115.png)
 5.执行sql
-![[Pasted image 20250121203121.png]]
+![](https://raw.githubusercontent.com/Gg-Maker6/note_img/main/Pasted%20image%2020250121203121.png)
 6.处理结果
 7.释放资源
