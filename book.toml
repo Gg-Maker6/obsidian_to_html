@@ -3,8 +3,8 @@ authors = ["GgMaker"]
 language = "zh"
 multilingual = false
 src = "src"
-title = "chenxuan'blog"
-description= "chenxuan'blog"
+title = "GgMaker'blog"
+description= "GgMaker'blog"
 
 [output.html]
 # defaulr dark theme
